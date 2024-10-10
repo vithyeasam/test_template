@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Moulpali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+  font-family: 'Kantumruy+Pro', sans-serif;
+}
+
+.font-moulpali {
+  font-family: 'Moulpali', sans-serif;
+}
+
+.font-montaga {
+  font-family: 'Montaga', sans-serif;
+}
 
 :root {
   --background: #ffffff;
